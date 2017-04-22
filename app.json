@@ -1,0 +1,6 @@
+{
+  "name": "Finda-friend",
+  "description": "An application using Node, Express, and Path to match like minded individuals",
+  "repository": "https://github.com/Ubtene/Finda-friend",
+  "keywords": ["node", "express", "heroku"],
+}

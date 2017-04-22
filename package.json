@@ -1,0 +1,30 @@
+{
+  "name": "finda-friend"
+  ,"version": "1.0.0"
+  ,"description": "An application which finds friends"
+  ,"main": "server.js"
+  ,"scripts": {
+    "start": "node server.js"
+  }
+
+  ,"repository": {
+    "type": "git"
+    ,"url": "git+https://github.com/Ubtene/Finda-friend.git"
+  }
+  ,"author": ""
+  ,"license": "ISC"
+  ,"bugs": {
+    "url": "https://github.com/Ubtene/Finda-friend/issues"
+  }
+
+  ,"engines": {
+  	"node": "6.10.2"	
+  }
+
+  ,"homepage": "https://github.com/Ubtene/Finda-friend#readme"
+  ,"dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}

@@ -115,7 +115,7 @@
 
           <!-- Q6 -->
           <h4><strong>Question 6</strong></h4>
-          <h5>You often find yourself lost in thought when you are walking in nature.</h5>
+          <h5>You are incredibly apt at getting yourself out of tight situations with law enforcement.</h5>
           <select data-placeholder="" class="chosen-select" id="Q6">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -127,7 +127,7 @@
 
           <!-- Q7 -->
           <h4><strong>Question 7</strong></h4>
-          <h5>You are more of a natural improviser than a careful planner.</h5>
+          <h5>You enjoy crackin a cold one with the boys.</h5>
           <select data-placeholder="" class="chosen-select" id="Q7">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -139,7 +139,7 @@
 
           <!-- Q8 -->
           <h4><strong>Question 8</strong></h4>
-          <h5>You prefer Front End design over Back End scripting.</h5>
+          <h5>You enjoy watching shows revolving around the lives of lower-middle class white people in Nova Scotia, Canada.</h5>
           <select data-placeholder="" class="chosen-select" id="Q8">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -151,7 +151,7 @@
 
           <!-- Q9 -->
           <h4><strong>Question 9</strong></h4>
-          <h5>You have fun in a light-hearted atmosphere; prefering not to take things too seriously.</h5>
+          <h5>You prefer eating lots of oreo cookies to having deep conversations</h5>
           <select data-placeholder="" class="chosen-select" id="Q9">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -232,12 +232,6 @@
     <!-- JavaScript for Submission Logic -->
     <script>
 
-
-     $(".close").on("click" , function (res) {
-
-      res.redirect('/');
-
-     });
 
       // Global Variable Declaration (scoping fix)
       var allFieldsCompleted;
@@ -342,6 +336,12 @@
         });
 
       }
+
+      $(".close").on("click" , function (res) {
+
+      location.replace("/");
+
+     });
 
     </script>
 
